@@ -1,4 +1,4 @@
-﻿using com.bateeqshop.service.content.data.Model;
+﻿using com.dyeingprinting.service.content.data.Model;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -12,7 +12,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace com.bateeqshop.service.content.api.Controllers
+namespace com.dyeingprinting.service.content.api.Controllers
 {
     [ApiController]
     [ApiVersion("1.0")]

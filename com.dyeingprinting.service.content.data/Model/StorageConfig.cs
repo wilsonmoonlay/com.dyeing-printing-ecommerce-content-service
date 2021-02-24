@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace com.bateeqshop.service.content.data.Model
+namespace com.dyeingprinting.service.content.data.Model
 {
     public class Storage
     {
