@@ -38,7 +38,7 @@ namespace com.bateeqshop.service.content.api
                        .WithExposedHeaders("Content-Disposition", "api-version", "content-length", "content-md5", "content-type", "date", "request-id", "response-time");
             }));
 
-            services.Configure<MyConfig>(Configuration.GetSection("MyConfig"));
+            services.Configure<Storage>(Configuration.GetSection("Storage"));
             services.AddControllers();
             services.AddDbContext<ContentDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddTransient<IService<MobileContent>, MobileContentService>();

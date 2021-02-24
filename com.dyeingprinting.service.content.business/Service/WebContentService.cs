@@ -32,8 +32,6 @@ namespace com.bateeqshop.service.content.business.Service
             return _context.SaveChangesAsync();
         }
 
-
-
         public List<WebContent> Find()
         {
             return _context.WebContents.ToList();
