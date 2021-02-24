@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "com.dyeingprinting.service.content.api", "com.dyeingprinting.service.content.api\com.dyeingprinting.service.content.api.csproj", "{5674BFF5-9207-468C-AB36-FE3AB0F4665A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "com.dyeingprinting.service.content.data", "com.dyeingprinting.service.content.data\com.dyeingprinting.service.content.data.csproj", "{9431BF9A-6382-4DB8-AB2B-3F2834A78E0B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "com.dyeingprinting.service.content.business", "com.dyeingprinting.service.content.business\com.dyeingprinting.service.content.business.csproj", "{60931EF4-6B41-42F2-BA8C-2A75408BE26C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.dyeingprinting.service.content.api.Test", "com.dyeingprinting.service.content.api.Test\com.dyeingprinting.service.content.api.Test.csproj", "{01B61642-06EF-4147-8F8B-317C1857D4DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5674BFF5-9207-468C-AB36-FE3AB0F4665A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5674BFF5-9207-468C-AB36-FE3AB0F4665A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5674BFF5-9207-468C-AB36-FE3AB0F4665A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5674BFF5-9207-468C-AB36-FE3AB0F4665A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9431BF9A-6382-4DB8-AB2B-3F2834A78E0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9431BF9A-6382-4DB8-AB2B-3F2834A78E0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9431BF9A-6382-4DB8-AB2B-3F2834A78E0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9431BF9A-6382-4DB8-AB2B-3F2834A78E0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60931EF4-6B41-42F2-BA8C-2A75408BE26C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60931EF4-6B41-42F2-BA8C-2A75408BE26C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60931EF4-6B41-42F2-BA8C-2A75408BE26C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60931EF4-6B41-42F2-BA8C-2A75408BE26C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01B61642-06EF-4147-8F8B-317C1857D4DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01B61642-06EF-4147-8F8B-317C1857D4DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01B61642-06EF-4147-8F8B-317C1857D4DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01B61642-06EF-4147-8F8B-317C1857D4DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62B47FC4-2C28-465E-B7D8-DCB9FB3CAD90}
+	EndGlobalSection
+EndGlobal
