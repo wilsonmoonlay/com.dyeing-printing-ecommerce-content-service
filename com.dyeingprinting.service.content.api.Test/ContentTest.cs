@@ -54,11 +54,67 @@ namespace com.dyeingprinting.service.content.api.Test
             return controller;
         }
 
+        public WebContent model = new WebContent()
+        {
+            Id =1,
+            ImageUrl = "Test",
+            Name ="Test",
+            LinkYoutube ="youtube.com",
+            Link = "",
+            Title ="Title",
+            TextButton ="Title",
+            Order = 1
+        };
+
         [TestMethod]
-        public async Task Content_Test()
+        public async Task FindContent_Test()
         {
             var controller = GetController();
             var result = controller.FindAsync().Result;
+            var code = result as ObjectResult;
+
+            Assert.IsNotNull(result);
+            Assert.AreEqual(200, code.StatusCode);
+        }
+
+        [TestMethod]
+        public async Task PostContent_Test()
+        {
+            var controller = GetController();
+            var result = controller.Post(model).Result;
+            var code = result as ObjectResult;
+
+            Assert.IsNotNull(result);
+            //Assert.AreEqual(200, code.StatusCode);
+        }
+
+        [TestMethod]
+        public async Task PutContent_Test()
+        {
+            var controller = GetController();
+            var result = controller.Put(model.Id,model).Result;
+            var code = result as ObjectResult;
+
+            Assert.IsNotNull(result);
+            Assert.AreEqual(200, code.StatusCode);
+        }
+
+        [TestMethod]
+        public async Task GetContentbyId_Test()
+        {
+            var controller = GetController();
+            var result = controller.Get(model.Id).Result;
+            var code = result as ObjectResult;
+
+            Assert.IsNotNull(result);
+            Assert.AreEqual(200, code.StatusCode);
+        }
+
+        [TestMethod]
+        public async Task DeleteContentbyId_Test()
+        {
+            var controller = GetController();
+            var result = controller.Delete(model.Id).Result;
             var code = result as ObjectResult;
 
             Assert.IsNotNull(result);
